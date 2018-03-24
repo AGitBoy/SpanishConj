@@ -1,0 +1,6 @@
+const val I = "I"
+const val You = "You"
+const val It = "It"
+const val We = "We"
+const val YouAll = "YouAll"
+const val They = "They"
