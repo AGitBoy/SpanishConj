@@ -1,4 +1,4 @@
-fun conj(inp: String, go: Boolean = false): Sentance {
+fun conj(inp: String, go: Boolean = false): Sentence {
     val normalizedInp = stripAccents(inp.decapitalize())
 
     val conjTable = mapOf(
@@ -26,5 +26,5 @@ fun conj(inp: String, go: Boolean = false): Sentance {
         else -> throw Error("Something Went Wrong, Sorry")
     }
     val root = normalizedInp.split(" ")[1].substring(0 until normalizedInp.split(" ")[1].length - 2)
-    return Sentance(normalizedInp.split(" ")[0], root, conjEnding!!)
+    return Sentence(normalizedInp.split(" ")[0], root, conjEnding!!)
 }

@@ -2,7 +2,7 @@ object IrregularStorage {
     private val e_ie = TransitionType("e", "ie")
     private val e_i = TransitionType("e", "i")
     private val u_ue = TransitionType("u", "ue")
-    private val o_ue = TransitionType("e", "ue")
+    private val o_ue = TransitionType("o", "ue")
 
     val irregulars = mapOf(
             "jugar" to Irregular(u_ue),

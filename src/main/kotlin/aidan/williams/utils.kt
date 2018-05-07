@@ -43,6 +43,6 @@ fun String.replaceLast(regex: String, replacement: String): String {
     return this.replaceFirst("(?s)$regex(?!.*?$regex)".toRegex(), replacement)
 }
 
-data class Sentance(val pronoun: String, var root: String, val ending: String) {
+data class Sentence(private val pronoun: String, var root: String, private val ending: String) {
     override fun toString(): String = "$pronoun $root$ending"
 }
