@@ -1,3 +1,5 @@
+# [THIS PROJECT HAS BEEN MIGRATED TO GITLAB](https://gitlab.com/AGitBoy/SpanishConj)
+
 # Conjugate Tool
 
 A little tool that I made for fun. It conjugates ar, er, and ir verbs, as well as some irregulars, and then outputs them accordingly.
